@@ -1,0 +1,201 @@
+<html>
+<head>
+    <title>Cristiano Ronaldo - The GOAT of Soccer</title>
+    <style>
+        :root {
+            --hot-pink: #b10c6f;
+            --pink: #fc75b9;
+            --black: #000000;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            background-color: #ffffff;
+            color: var(--black);
+        }
+
+        .nav-bar {
+            background-color: var(--hot-pink);
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+        }
+
+        .nav-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 4rem;
+        }
+
+        .nav-list a {
+            color: white;
+            text-decoration: none;
+            padding: 1rem 2rem;
+            transition: all 0.3s;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .nav-list a:hover {
+            background-color: var(--pink);
+        }
+
+        .header {
+            background: linear-gradient(45deg, var(--hot-pink), var(--pink));
+            padding: 4rem;
+            text-align: center;
+            color: white;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .ronaldo-card {
+            border: 4px solid var(--hot-pink);
+            border-radius: 15px;
+            padding: 2rem;
+            margin: 2rem 0;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 2rem;
+            background: url('pattern.png') #fff;
+        }
+
+        .ronaldo-image {
+            width: 100%;
+            border-radius: 10px;
+            border: 3px solid var(--black);
+        }
+
+        .achievements-list {
+            columns: 2;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .achievements-list li {
+            padding: 1rem;
+            margin: 0.5rem;
+            background-color: var(--pink);
+            color: white;
+            border-radius: 5px;
+        }
+
+        h1, h2 {
+            color: var(--black);
+            text-shadow: 2px 2px 4px --hot-pink;
+        }
+
+        .stats-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+        }
+
+        .stats-table th {
+            background-color: var(--black);
+            color: var(--pink);
+            padding: 1rem;
+        }
+
+        .stats-table td {
+            padding: 1rem;
+            border-bottom: 2px solid var(--pink);
+        }
+
+        footer {
+            background-color: var(--black);
+            color: var(--pink);
+            text-align: center;
+            padding: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav-bar">
+        <ul class="nav-list">
+            <li><a href="WrapUpHome.html">Home</a></li>
+            <li><a href="WrapUpCareer.html">Career</a></li>
+            <li><a href="WrapUpStats.html">Stats</a></li>
+            <li><a href="WrapUpLegacy.html">Legacy</a></li>
+        </ul>
+    </nav>
+
+    <div class="header">
+        <h1>CRISTIANO RONALDO</h1>
+        <h2>The Greatest of All Time</h2>
+    </div>
+
+    <div class="container">
+        <div class="ronaldo-card">
+            <img src="ronaldo-main.jpg" alt="Cristiano Ronaldo" class="ronaldo-image">
+            <div>
+                <h2>The Complete Athlete</h2>
+                <p>With a career spanning over two decades, Cristiano Ronaldo dos Santos Aveiro has redefined modern football. The Portuguese phenomenon combines incredible athleticism with technical mastery, maintaining peak performance through relentless dedication.</p>
+                
+                <h3>Career Highlights:</h3>
+                <ul class="achievements-list">
+                    <li> 5 Ballon d'Or Winner (2008, 2013, 2014, 2016, 2017)</li>
+                    <li> First player to score in 5 World Cups</li>
+                    <li> All-time top scorer in men's international football</li>
+                    <li> 5 UEFA Champions League Winner</li>
+                    <li> 2016 European Championship Winner</li>
+                    <li> 850+ career goals (official competitions)</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2>Legendary Statistics</h2>
+        <table class="stats-table">
+            <tr>
+                <th>Category</th>
+                <th>Numbers</th>
+                <th>Record</th>
+            </tr>
+            <tr>
+                <td>International Goals</td>
+                <td>128</td>
+                <td>World Record</td>
+            </tr>
+            <tr>
+                <td>UCL Goals</td>
+                <td>140</td>
+                <td>All-time Top Scorer</td>
+            </tr>
+            <tr>
+                <td>Career Hat-tricks</td>
+                <td>63</td>
+                <td>Most in History</td>
+            </tr>
+        </table>
+
+        <h2>Signature Skills</h2>
+        <div class="ronaldo-card" style="grid-template-columns: 1fr 1fr 1fr; padding: 1rem;">
+            <div>
+                <h3 style="color: var(--black);">Knuckleball Free-kicks</h3>
+                <p>Revolutionized free-kick technique with unpredictable dipping shots exceeding 130km/h</p>
+            </div>
+            <div>
+                <h3 style="color: var(--black);">Elástico Dribble</h3>
+                <p>Perfected the flashy elastico move to embarrass defenders</p>
+            </div>
+            <div>
+                <h3 style="color: var(--black);">Aerial Dominance</h3>
+                <p>2.93m vertical leap - higher than NBA average</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>2023 CR7 Legacy | All records verified by official sources</p>
+        <p>"Success is no accident. It is hard work, perseverance, learning, sacrifice and most of all, love of what you are doing." - CR7</p>
+    </footer>
+</body>
+</html>
